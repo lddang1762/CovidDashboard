@@ -1,3 +1,17 @@
+.container {
+  padding: 0 64px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  /* margin-bottom: 0px; */
+  color: gray;
+}
+
 .App {
   text-align: center;
 }
