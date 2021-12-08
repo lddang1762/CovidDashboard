@@ -5,11 +5,21 @@
 
 .title {
   margin-bottom: 0px;
+  background: #d4ecfc;
 }
 
 .subtitle {
-  /* margin-bottom: 0px; */
+  margin-top: 0px;
   color: gray;
+}
+
+.tables {
+  display: flex;
+}
+
+.tables > div {
+  flex: 50%;
+  padding: 5px;
 }
 
 .App {

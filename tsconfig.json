@@ -16,7 +16,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "strictNullChecks": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "types": ["@types/node", "@types/react", "@types/react-table"],
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
   "include": ["src"]
 }

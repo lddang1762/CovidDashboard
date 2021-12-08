@@ -23,7 +23,6 @@ export function Map({ data }: { data: ReturnData[] }) {
         }
         return matching;
       });
-      console.log(updated);
     };
     if (data) {
       updateData();
