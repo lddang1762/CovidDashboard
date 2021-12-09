@@ -11,7 +11,8 @@ export interface ReturnData {
   active: number;
   casesPerOneMillion: number;
   deathsPerOneMillion: number;
-  tests: number;
+  recovered: number;
+  test: number;
   testsPerOneMillion: number;
   population: number;
 }

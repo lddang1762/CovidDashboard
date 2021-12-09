@@ -25,3 +25,5 @@ export const useHistoricalData = (lastdays: number = 30) => {
 
   return data;
 };
+
+export default useHistoricalData;

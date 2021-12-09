@@ -44,7 +44,7 @@ const Styles = styled.div`
     th,
     td {
       margin: 0;
-      padding: 0.5rem 1.5rem;
+      padding: 0.25rem 1.5rem;
       border-bottom: 1px solid black;
       border-right: 1px solid black;
 
@@ -124,7 +124,7 @@ export default function HistoricalTable({ data }) {
 
   return (
     <Styles>
-      <h2>Nationwide Past 14 Days</h2>
+      <h2>Nationwide Past 30 Days</h2>
       <div className="table-container">
         <Table columns={historicalColumns} data={tableData} />
       </div>

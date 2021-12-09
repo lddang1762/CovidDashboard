@@ -17,8 +17,13 @@
   display: flex;
 }
 
-.tables > div {
-  flex: 50%;
+.tables > .historicalGraph {
+  flex: 80%;
+  padding: 5px;
+}
+
+.tables > .historicalTable {
+  flex: 20%;
   padding: 5px;
 }
 
